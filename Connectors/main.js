@@ -4,7 +4,7 @@ var myConnector = tableau.makeConnector();
 
 var CLIENT_ID = "b627c47eb5c24a55891109ed025448f2";
 // make sure this is upadated in the Spotify app you registered
-var REDIRECT_URI = "http://mushgit/Connectors/main.js";
+var REDIRECT_URI = "http://mushgit/Connectors/index.html";
 var url = "https://accounts.spotify.com/authorize/?client_id=" + 
 CLIENT_ID + 
 "&response_type=token&redirect_uri=" + REDIRECT_URI + 
